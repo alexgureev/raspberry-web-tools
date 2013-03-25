@@ -1,7 +1,7 @@
 <?php
 include 'config.php';
 // Проверяем смену IP
-$result = file_get_contents('http://check.knws.ru/check.php');
+$result = file_get_contents('');
 $array = json_decode($result, true);
 
 if(sizeof($array)==2)
