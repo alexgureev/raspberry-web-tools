@@ -8,4 +8,4 @@ HOME=/root
 git commit -a -m "update $DATE"
 git config --global user.name "barif"
 git config --global user.email "w3db@yandex.ru"
-git push origin master
+git push origin
