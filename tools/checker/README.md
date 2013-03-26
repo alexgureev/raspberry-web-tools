@@ -15,3 +15,5 @@ Put checker to shared hosting web directory. Change  permissions on remote.log a
 Add cron job on raspberry to file `/etc/cron.d/checker` don`t forget new line after job.
 
 `*/10 * * * * root /usr/bin/wget -O checker.html "http://127.0.0.1/tools/checker/checker.php" > /dev/null 2>&1`
+
+Now when raspberry ip changed, domain record will update.
