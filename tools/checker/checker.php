@@ -1,7 +1,7 @@
 <?php
 include 'config.php';
 // Проверяем смену IP
-$result = file_get_contents('');
+$result = file_get_contents($config['check']);
 $array = json_decode($result, true);
 
 if(sizeof($array)==2)
