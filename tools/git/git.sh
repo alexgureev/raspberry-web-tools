@@ -2,6 +2,7 @@
 # Auto commit to git
 #WEB_DIR=/var/www
 DATE=$(date +"%m_%d_%Y")
+HOME=~/
 echo $HOME
 #cd $WEB_DIR
 git config --global user.name "barif"
