@@ -1,6 +1,6 @@
 #!/bin/sh
 # Auto commit to git
-sudo
+su
 #WEB_DIR=/var/www
 DATE=$(date +"%m_%d_%Y")
 HOME=/root
