@@ -7,4 +7,4 @@ DATE=$(date +"%m_%d_%Y")
 sudo git commit -a -m "update $DATE"
 sudo git config --global user.name "barif"
 sudo git config --global user.email "w3db@yandex.ru"
-sudo git push origin
+sudo git push origin master
